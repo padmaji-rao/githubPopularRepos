@@ -1,0 +1,40 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popular-heading {
+  font-family: 'Lobster';
+  font-size: 50px;
+}
+.language-tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  list-style-type: none;
+}
+.repo-ul-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  width: 65%;
+  list-style-type: none;
+}
+.error-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-img {
+  width: 400px;
+  margin-top: 30px;
+}
+.wrong-msg {
+  font-size: 30px;
+}
